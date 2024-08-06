@@ -1,0 +1,25 @@
+[작업 지시서]
+
+1. 깃허브 로그인
+
+2. new -> 새 저장소 생성
+ ( 주의 - readme 옵션은 체크하지 않아야 합니다)
+ (이미 로컬에 있으니 웹에서 만들 필요가 없다)
+
+3. 파이썬 가상프로젝트 생성 python -m venv titanicProject
+
+4. 프로젝트 파일 배포 
+
+5. git add .
+6. git commit -m "타이타닉 프로젝트" 
+
+7. 웹레포와 로컬레포 연결
+
+8. 웹레포 만들기 (github에서) -> 리드미 옵션 만들지말것. 
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jason-park-dev/titanicProject.git
+git push -u origin main
